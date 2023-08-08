@@ -36,12 +36,12 @@ const Header = forwardRef(
 
     return (
       <header
-        className={clsx('safe-paddings absolute top-0 left-0 right-0 z-50 w-full', className)}
+        className={clsx('safe-paddings absolute left-0 right-0 top-0 z-50 w-full', className)}
         ref={ref}
       >
         <div className="container-lg flex h-[88px] items-center justify-between sm:h-18">
           <Link to="/">
-            <span className="sr-only">Pixel Point</span>
+            <span className="sr-only">VEXA.AE</span>
             <Logo
               className={clsx(
                 'h-9 transition-all duration-200 dark:invert-0',
@@ -69,7 +69,7 @@ const Header = forwardRef(
                 <li
                   className={clsx(
                     items?.length > 0 &&
-                      'group relative cursor-pointer pr-2.5 after:absolute after:top-2 after:right-0 after:h-0 after:w-0 after:border-[3px] after:border-b-0 after:transition-colors after:duration-200 after:hover:border-t-red dark:after:border-transparent dark:after:border-t-white dark:after:hover:border-t-red',
+                      'group relative cursor-pointer pr-2.5 after:absolute after:right-0 after:top-2 after:h-0 after:w-0 after:border-[3px] after:border-b-0 after:transition-colors after:duration-200 after:hover:border-t-red dark:after:border-transparent dark:after:border-t-white dark:after:hover:border-t-red',
                     items?.length > 0 &&
                       theme === 'white' &&
                       'after:border-transparent after:border-t-white',
