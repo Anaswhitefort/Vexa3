@@ -17,7 +17,7 @@ import LINKS from 'constants/links';
 import SEO_DATA from 'constants/seo-data';
 
 const servicesCTA = {
-  title: 'Still in doubts? Check out what we have to offer on',
+  title: 'Check out what we have to offr on',
   linkText: 'Design services',
   linkUrl: LINKS.webDesign,
 };
